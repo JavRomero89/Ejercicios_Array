@@ -19,5 +19,11 @@ classNames[5] = "Javier"
 console.log(classNames);
 
 let personalInfo = ["Javier", "Romero Castro", "Callao", 34]
-alert(personalInfo[0],personalInfo[1], "nacido en", personalInfo[2], "ha conseguido convertirse en desarrolador web a sus", personalInfo[3], "años.");
+alert(`${personalInfo[0]} ${personalInfo[1]} nacido en ${personalInfo[2]} ha conseguido convertirse en desarrolador web a sus ${personalInfo[3]} años.`);
 
+console.log("-----OBJETOS-----");
+
+let cualquiera ={
+    name: 'Harry',
+    iLikeJs: true,
+}
