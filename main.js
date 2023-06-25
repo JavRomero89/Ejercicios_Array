@@ -26,4 +26,16 @@ console.log("-----OBJETOS-----");
 let cualquiera ={
     name: 'Harry',
     iLikeJs: true,
+    favFilms: ['Peli1','Peli2','Peli4']
 }
+
+console.log(cualquiera);
+
+cualquiera.favFilms[0]='Ferdinand'
+console.log(cualquiera);
+
+cualquiera.surName='Potter'
+console.log(cualquiera);
+
+delete cualquiera.favFilms
+console.log(cualquiera);  
